@@ -1,12 +1,9 @@
-#include <ncurses.h>
+#include <ncurses.h> 
+#include <stdio.h>
 
 int main(void) {
-    initsrc();
-    cbreak();
-    noecho();
 
-    noqiflush();
-    keypad(stdsrc, TRUE);
+    printf("Hello World!");
 
     return 0;
 }
